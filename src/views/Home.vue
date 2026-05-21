@@ -345,7 +345,7 @@
           <h2
             class="font-black font-stretch-extra-expanded tracking-widest font-['NanoMyongWenFangSong'] text-3xl md:text-4xl bg-linear-to-r from-gray-300 via-gray-400 to-gray-500 bg-clip-text text-transparent"
           >
-            联系我
+            联系/视奸我
           </h2>
         </motion.div>
         <motion.div
@@ -409,10 +409,23 @@
           >
             <a
               class="btn btn-lg w-36 px-0 font-light text-xl border-transparent bg-[linear-gradient(to_top,transparent_50%,#7c3aed_50%)] bg-size-[100%_200%] bg-bottom hover:bg-top hover:transform-[perspective(800px)_rotateX(5deg)_rotateY(-6deg)_translateY(-3px)] hover:[box-shadow:-6px_10px_25px_rgba(0,0,0,0.35)] active:transform-[perspective(800px)_rotateX(2deg)_rotateY(-2deg)_translateY(-1px)] transition-all duration-350 ease-out"
-              href="https://v.douyin.com/C1hyOBBngI4/"
+              href="https://v.douyin.com/C1hyOBBngI4"
               target="_blank"
             >
               <Icon><Tiktok /></Icon>douyin
+            </a>
+          </motion.div>
+          <motion.div
+            :initial="{ opacity: 0, y: 40 }"
+            :whileInView="{ opacity: 1, y: 0 }"
+            :transition="{ duration: 0.5, delay: 0.6 }"
+          >
+            <a
+              class="btn btn-lg w-36 px-0 font-light text-xl border-transparent bg-[linear-gradient(to_top,transparent_50%,#6e7681_50%)] bg-size-[100%_200%] bg-bottom hover:bg-top hover:transform-[perspective(800px)_rotateX(5deg)_rotateY(-6deg)_translateY(-3px)] hover:[box-shadow:-6px_10px_25px_rgba(0,0,0,0.35)] active:transform-[perspective(800px)_rotateX(2deg)_rotateY(-2deg)_translateY(-1px)] transition-all duration-350 ease-out"
+              href="https://github.com/Potatop233"
+              target="_blank"
+            >
+              <Icon><Github /></Icon>Github
             </a>
           </motion.div>
         </div>
@@ -433,6 +446,15 @@
             >
           </p>
           <p class="text-xs text-gray-400 mt-3">© 2026 <b>晨辞</b></p>
+          <p class="text-xs text-gray-400 mt-1 flex items-center gap-1">
+            <Icon><Github /></Icon>
+            <a
+              class="link link-hover"
+              href="https://github.com/Potatop233/chenci_website"
+              target="_blank"
+              >github.com/Potatop233/chenci_website</a
+            >
+          </p>
         </div>
       </aside>
       <nav>
@@ -463,6 +485,7 @@ import {
   PlaneDeparture,
   Camera,
   Xbox,
+  Github,
 } from "@vicons/fa";
 import { AnimalDog16Filled } from "@vicons/fluent";
 import { LiveTvOutlined } from "@vicons/material";
