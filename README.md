@@ -1,12 +1,17 @@
-# 晨辞の小站 · 未出发的旅行
+# 晨辞の小站
 
-基于 Vue 3 + TypeScript + Vite 构建的个人主页，配有视频背景、打字机动画与流畅的动效。
+基于 Vue 3 + TypeScript + Vite 构建的个人主页。
+视频背景、打字机动画与流畅的动效。
+
+## Demo
+
+🔗 [https://me.ycly.net](https://me.ycly.net)
 
 ## 技术栈
 
 | 分类 | 技术 |
 |------|------|
-| 框架 | Vue 3 (Composition API) |
+| 框架 | Vue 3 |
 | 语言 | TypeScript |
 | 构建 | Vite |
 | 路由 | Vue Router 4 |
@@ -33,4 +38,4 @@ pnpm preview
 
 ## License
 
-[MIT](LICENSE) © 2026 chenci233
+[MIT](LICENSE) © 2026 晨辞
